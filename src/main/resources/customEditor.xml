@@ -10,7 +10,7 @@
     <bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
         <property name="propertyEditorRegistrars">
             <list>
-                <bean class="com.spring.advanced.editor.MyResourceEditorRegistrar"></bean>
+                <bean class="com.spring.advanced.customEditor.MyResourceEditorRegistrar"></bean>
             </list>
         </property>
     </bean>
@@ -18,7 +18,7 @@
 <!--        <property name="customEditors">-->
 <!--            <map>-->
 <!--                <entry key="com.spring.advanced.domain.Score">-->
-<!--                    <value>com.spring.advanced.editor.MyPropertyEditorSupport</value>-->
+<!--                    <value>com.spring.advanced.customEditor.MyPropertyEditorSupport</value>-->
 <!--                </entry>-->
 <!--            </map>-->
 <!--        </property>-->

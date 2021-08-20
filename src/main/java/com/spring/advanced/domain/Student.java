@@ -2,16 +2,19 @@ package com.spring.advanced.domain;
 
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Import;
+import org.springframework.stereotype.Component;
 
-//@Component
+@Component
+@Import(value = Score.class)
 public class Student {
 
 //    private Address address;
 
-//    @Value("张三")
+    @Value("张三")
     private String studentName;
 
-//    @Value("12")
+    @Value("12")
     private String age;
 
 //    @Value("English-100")

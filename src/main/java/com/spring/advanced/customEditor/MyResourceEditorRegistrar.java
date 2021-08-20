@@ -1,7 +1,6 @@
-package com.spring.advanced.editor;
+package com.spring.advanced.customEditor;
 
 import com.spring.advanced.domain.Score;
-import com.spring.advanced.editor.MyPropertyEditorSupport;
 import org.springframework.beans.PropertyEditorRegistrar;
 import org.springframework.beans.PropertyEditorRegistry;
 

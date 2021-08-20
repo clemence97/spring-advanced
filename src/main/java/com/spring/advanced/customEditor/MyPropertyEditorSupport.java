@@ -1,7 +1,6 @@
-package com.spring.advanced.editor;
+package com.spring.advanced.customEditor;
 
 import com.spring.advanced.domain.Score;
-import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import java.beans.PropertyEditorSupport;
