@@ -3,10 +3,12 @@ package com.spring.advanced.domain;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Import;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.stereotype.Component;
 
 @Component
 @Import(value = Score.class)
+@EnableAsync
 public class Student {
 
 //    private Address address;
